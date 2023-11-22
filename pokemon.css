@@ -1,0 +1,59 @@
+
+
+    .card {
+        transition: transform 0.3s ease-in-out;
+      }
+      
+      .card:hover {
+        transform: scale(1.1); 
+      }
+      
+      @keyframes upDownAnimation {
+        0% {
+          transform: translateY(0); 
+        }
+        50% {
+          transform: translateY(-10px); 
+        }
+        100% {
+          transform: translateY(0); 
+        }
+      }
+      
+      .display-1 {
+        animation: upDownAnimation 1.5s ease-in-out infinite; 
+      }
+
+
+
+
+      @keyframes upDownAnimation {
+        0% {
+          transform: translateY(0); 
+        }
+        50% {
+          transform: translateY(-10px); 
+        }
+        100% {
+          transform: translateY(0); 
+        }
+      }
+      
+      .card {
+        animation: upDownAnimation 1.5s ease-in-out infinite; 
+      }
+      
+      .body_title{
+        margin-top: 7.5%;
+      }
+
+      .body_info{
+        display: flex;
+        margin-right: auto;
+        justify-content: center;
+      
+      /* }
+      .body{
+        background-color: darkgoldenrod;
+      }
+       */
